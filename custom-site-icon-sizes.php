@@ -1,11 +1,12 @@
 <?php
     defined( 'ABSPATH' ) or die( "Nothing to see!" );
 /**
- * Plugin Name: Custom site icon sizes
- * Description: Custom site icon sizes
- * Version: 1.0
- * Author: Florian Brinkmann
- * Author URI: http://florianbrinkmann.de
+ * Plugin Name:       Custom site icon sizes
+ * Description:       Custom site icon sizes
+ * Version:           1.0
+ * Author:            Florian Brinkmann
+ * Author URI:        http://florianbrinkmann.de
+ * GitHub Plugin URI: https://github.com/FlorianBrinkmann/custom-site-icon-sizes
  */
 function csiz_custom_site_icon_size( $sizes ) {
     array_push( $sizes, 57, 60, 72, 76, 114, 120, 144, 152, 96, 16 );
